@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CARD</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<div id='loading'>正在載入頁面資料...</div>
+
+<head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.6.1.min.js"></script>
+</head>
+
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <body>
+    <title>C.A.R.D</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/happy331203/image/main/logo.png" width=150px alt="">C.A.R.D</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#s1">遊戲大綱</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s2">遊戲玩法</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s3">遊戲進行</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s4">卡牌種類</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s5">植物介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s6">關於團隊</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+
+      <!--   動畫 -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+
+    <section class="full">
+      <br>
+      <h1>封面圖</h1><br><br><br><br><br>
+    </section>
+
+    <section class="full">
+      <section id="s1">
+        <div data-aos="flip-left">
+          <h1>(翻面的效果)桌遊大綱</h1><br><br>回合制，一人有四滴血，被扣除完畢即淘汰。<br><br>有三個陣營，黃色陣營(Ⅰ號)是特有種、紅色陣營(Ⅱ號)是瀕危種、紫色陣營(Ⅲ號)是入侵種。<br><br>特有要保護瀕危，入侵要殺死瀕危。<br><br>一旦瀕危全員死亡，及入侵種獲勝。<br><br>而入侵種死亡，則特有種及瀕危獲勝。<br>
+        </div>
+
+      </section>
+    </section>
+
+    <section class="full">
+      <section id="s2">
+        <div data-aos="zoom-in">
+          <h1>遊戲玩法(可能會有示意圖)</h1>
+          <br><br>回合準備：<br><br>1.根據遊戲人數，抽取對應張數的角色卡(下方有抽取說明)，請遊戲玩家進行抽取，剩餘卡片朝下放置於一側，卡片上有角色陣營的代表數字，要注意角色卡看完資訊要朝下放置，每個人還會有一張角色說明卡，上面會有每隻角色的特性說明(所有角色)。
+          <br><br>2.發放手牌，每個人3張，隨後進行換牌回合，有些卡片有限定陣營使用，為避免浪費才設置此回合。每個人朝下丟棄一張手牌(自選)，並從卡牌區抽取新一張至手牌，所有人抽取完成之後，丟棄的牌和卡牌區進行混合。
+          <br><br>3.所有人閉上眼睛，玩家進行猜拳，由贏的玩家開始，比數字給右邊的玩家表示自己的所在陣營，隨後第一名玩家閉上眼睛，由第二個玩家繼續，以此類推，最後一位玩家要告知第一位玩家自己的陣營，當所有玩家都完成後(每個玩家都要知道自己上家或下家的遊戲陣營)，遊戲正式開始。<br>
+
+        </div>
+      </section>
+    </section>
+
+    <section class="full">
+      <section id="s3">
+        <div data-aos="flip-left">
+          <h1>遊戲進行：</h1><br><br>
+          1.開始遊戲，由剛剛第一個玩家開始出牌，場上設定天氣情況為中性棲地，玩家須透過手牌改變環境，讓環境更利於自己生存，即可攻擊任一玩家。<br><br>例如：若A的生長特性為喜歡光，而手牌有日照的行動卡，即可使用此卡，攻擊B玩家，而B玩家會被扣一滴血，而卡牌在使用後會進入廢牌區，玩家出玩牌後須再抽取一張新卡牌(非特殊情況，手上必須有3張，被抓到就暫停一回合)。
+          <br><br>2.當手牌沒有自己能使用的行動卡，必須選擇丟棄一張手牌至棄牌區，結束自己的回合(記得一樣要抽新卡至手牌)。
+          <br><br>3.還有第三種回合進行方式是使用自己角色的咪啵嚕(即技能)，每個角色都有屬於自己角色的咪啵嚕，但要注意，一般情況下，角色卡是不公開的(只有玩家自己知道角色)，使用角色咪啵嚕後，角色卡就要進行公開(即朝上放置)，所以請玩家警慎使用(若咪啵嚕會消耗手牌，請記得在回合結束後，補齊卡牌數)。
+
+          <br><br>遊戲結束：
+          <br>1.入侵種玩家全員陣亡：特有及瀕危種勝利。
+          <br>2.瀕危種玩家全員陣亡：入侵種勝利。
+
+        </div>
+
+      </section>
+    </section>
+
+    <section class="full">
+      <section id="s4">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>卡牌種類-角色卡(入侵種)</h1>
+              (我想做1格1格的那種，每格下方會有按鈕可點擊更多內容或圖片放大)
+              <hr />
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">臭草</h4>
+                  <p class="card-text">(馬纓丹)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">恰查某</h4>
+                  <p class="card-text">(大花咸豐草)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">假澤蘭</h4>
+                  <p class="card-text">(小花蔓澤蘭)
+                  </p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>卡牌種類-角色卡(瀕危種)</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">小百合</h4>
+                  <p class="card-text">(艷紅鹿子百合)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">珍珠</h4>
+                  <p class="card-text">(澤珍珠菜)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">南瓜</h4>
+                  <p class="card-text">(細葉卷丹)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>卡牌種類-角色卡(特有種)</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">二胡</h4>
+                  <p class="card-text">(南湖柳葉菜)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">火絨絨</h4>
+                  <p class="card-text">(玉山薄雪草)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">玉山</h4>
+                  <p class="card-text">(黑斑龍膽)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>卡牌種類-角色說明卡</h1>
+              <hr />
+            </div>
+
+            <div class="col-sm-12">
+              <h1>卡牌種類-血量卡</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">血量</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>卡牌種類-行動卡</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">溫度</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">濕度</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">日照</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">人為</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">鑰匙</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">丟丟</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">吸血鬼</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">刺蝟</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">限制</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">護盾</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">面具</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">輪盤</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">鏡子</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">媽祖有保佑</h4>
+                  <p class="card-text"></p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </section>
+    </section>
+
+    <section class="full">
+      <section id="s5">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>植物介紹-入侵種</h1>
+              <hr />
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">馬纓丹</h4>
+                  <p class="card-text">(臭草)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">大花咸豐草</h4>
+                  <p class="card-text">(恰查某)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">小花蔓澤蘭</h4>
+                  <p class="card-text">(假澤蘭)
+                  </p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>植物介紹-瀕危種</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">艷紅鹿子百合</h4>
+                  <p class="card-text">(小百合)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">澤珍珠菜</h4>
+                  <p class="card-text">(珍珠)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">細葉卷丹</h4>
+                  <p class="card-text">(南瓜)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h1>植物介紹-特有種</h1>
+              <hr />
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">南湖柳葉菜</h4>
+                  <p class="card-text">(二胡)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">玉山薄雪草</h4>
+                  <p class="card-text">(火絨絨)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src=".jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">黑斑龍膽</h4>
+                  <p class="card-text">(玉山)</p>
+                  <a href="網址" target="_blank" class="btn btn-primary">更多資訊</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </section>
+    </section>
+
+    <section class="banner">
+      <section id="s6">
+        <div data-aos="fade-right">
+          <div class="image2"></div>
+          聯絡我們<br>Facebook<br>Instagram<br>Youtube<br>Twitter<br>LINE
+        </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="full">多的一頁</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+      $(function() {
+        $('#BackTop').click(function() {
+          $('html,body').animate({
+            scrollTop: 0
+          }, 333);
+        });
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 300) {
+            $('#BackTop').fadeIn(222);
+          } else {
+            $('#BackTop').stop().fadeOut(222);
+          }
+        }).scroll();
+      });
+    </script>
+
+  </body>
+
+  <script>
+    $(window).load(function() {
+      $('#loading').hide(1000);
+    });
+  </script>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
